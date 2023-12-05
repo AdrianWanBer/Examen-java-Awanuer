@@ -23,4 +23,12 @@ public interface OperativaInterfaz {
 	 * @return long totalNuevo
 	 */
 	public long añadirGasto(Scanner sc, long total);
+
+	/*
+	 * metodo que se encarga de comprobar el valor de total y dar una respuesta al usuario
+	 * por consola
+	 * 051223 - awb
+	 * @param total
+	 */
+	public void totalComprobacion(long total);
 }
