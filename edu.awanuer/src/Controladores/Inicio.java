@@ -13,6 +13,7 @@ import Servicios.OperativaInterfaz;
 public class Inicio {
 	/*
 	 * Metodo main que se encarga del flujo de la aplicacion
+  	 * 051223 - awb
 	 */
 	public static void main(String[] args) {
 		
