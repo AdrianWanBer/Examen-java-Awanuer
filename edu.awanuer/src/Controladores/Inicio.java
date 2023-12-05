@@ -49,16 +49,7 @@ public class Inicio {
 				
 				break;
 			case 4: //Mostrar total
-				
-				if (total == 0) {
-					System.out.println("El total de hoy es: " + total + " Vamos mal");
-				} 
-				if (total < 0) {
-					System.out.println("El total de hoy es: " + total + " Vamos MUY mal");
-				}
-				if (total > 0) {
-					System.out.println("El total de hoy es: " + total);
-				}
+				oi.totalComprobacion(total);
 				break;
 				
 			}
